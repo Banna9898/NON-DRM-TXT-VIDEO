@@ -341,9 +341,9 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message
-    credit = "️**Parv Kamboj**"
+    credit = "️𝐏𝐚𝐫𝐯 𝐊𝐚𝐦𝐛𝐨𝐣🧖‍♂️"
     if raw_text3 == '1':
-        CR = '**Parv Kamboj**'
+        CR = '𝐏𝐚𝐫𝐯 𝐊𝐚𝐦𝐛𝐨𝐣🧖‍♂️'
     elif raw_text3:
         CR = raw_text3
     else:
